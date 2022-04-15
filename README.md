@@ -1,5 +1,5 @@
 # Turncoat
-Tool For Enumerating Telegram Bot Secrets 
+Tool For Enumerating Telegram Bot Secret Messages 
 
 # Requirements
 1. Telegram App Installed
