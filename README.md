@@ -57,7 +57,7 @@ This was chosen to highlight the script features while not exposing sensitive in
 6. 'Message From' should display your Telegram username. Copy the 'chat_id', this is your Telegram account id that can be used by bots to send you messages.
   
   
-7. python3 turncoat.py --botkey {Bot API Key} -turncoat --chatid {Your chat_id from --getchat} --dropid {malware/phishing campaign chat_id with secrets}
+7. python3 turncoat.py --botkey {Bot API Key} -t --chatid {Your chat_id from --getchat} --dropid {malware/phishing campaign chat_id with secrets}
 
 ![alt text](https://github.com/DODC/turncoat/blob/main/images/full_turncoat.png "turncoat")
   
