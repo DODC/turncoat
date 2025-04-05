@@ -25,8 +25,7 @@ def getchat(botkey):
 			base = item["message"]["from"]
 			chatid = str(base["id"])
 			fname = base["first_name"]
-			lname = base["last_name"]
-			print('[+] Message from '+fname+' '+lname)
+			print('[+] Message from '+fname)
 			print('[+] Chat ID : '+chatid)
 		print('[+] Choose the correct chat ID and re run script with -t or --turncoat')
 	except:
