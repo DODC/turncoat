@@ -39,7 +39,9 @@ def turncoat(botkey,chatid,dropid,start,count):
 		try:
 			req_data = {"from_chat_id": str(dropid), "chat_id": str(chatid), "message_id": str(i)}
 			res = requests.post(url+botkey+'/copymessage',data=req_data)
-			complete+=1
+			data = json.loads(res.text)
+			if data["ok"] == True:
+				complete+=1
 		except:
 			print('[+] Error transferring chat data for message ID : '+str(i))
 	print('[+] Total messages transferred : '+str(complete))
